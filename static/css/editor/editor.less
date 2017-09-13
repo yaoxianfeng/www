@@ -1,0 +1,77 @@
+.wangEditor-container {
+  background-color: rgba(39,94,139, 0.5);
+  //border:1px solid #285E8D;
+  border: none;
+  border-radius: 2px;
+
+  .wangEditor-menu-container {
+    background: transparent;
+    border:0 none;
+    .menu-group{
+      border-right:0 none;
+
+      .menu-item {
+
+        &:hover {
+          background-color: rgba(39,94,139, 0.5);
+        }
+
+        // 菜单
+        a {
+          color: #1e88e5;
+        }
+
+        // 菜单选中状态
+        .selected {
+          color: #aff8ff;
+        }
+
+        // 激活状态
+        .active {
+          background-color: rgba(39,94,139, 0.5);
+        }
+
+      }
+
+    }
+
+  }
+  .wangEditor-txt {
+/*     a:link{color: #a2c5d0}
+a:visited{color:  #58d6ff} */
+    background: rgba(39,94,139, 0.5);
+    border:1px solid #285E8D;
+    color:#fff;
+    padding: 5px 15px 15px;
+  }
+  .wangEditor-menu-shadow{
+    box-shadow:none;
+  }
+
+  .txt-toolbar {
+    input[type=text] {
+      border-bottom:1px solid #3cade3;
+    }
+  }
+  .wangEditor-drop-panel{
+    background-color: rgba(39,94,139, .9);
+
+    input[type=text]{
+      border-bottom:1px solid #3cade3;
+    }
+
+    input {
+      background: none;
+      color: #3cade3;
+    }
+
+    button {
+      background-color: #20a0ff;
+      color: #fff;
+    }
+    button.gray{
+      background-color: #20a0ff;
+    }
+  }
+}
+

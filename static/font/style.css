@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?inmu57');
+  src:  url('fonts/icomoon.eot?inmu57#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?inmu57') format('truetype'),
+    url('fonts/icomoon.woff?inmu57') format('woff'),
+    url('fonts/icomoon.svg?inmu57#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-ha-"], [class*=" icon-ha-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ha-position:before {
+  content: "\e905";
+}
+.icon-ha-records:before {
+  content: "\e900";
+}
+.icon-ha-date:before {
+  content: "\e901";
+}
+.icon-ha-delete:before {
+  content: "\e902";
+}
+.icon-ha-time:before {
+  content: "\e903";
+}
+.icon-ha-add:before {
+  content: "\e904";
+}
+.icon-ha-quarter:before {
+  content: "\e906";
+}
+.icon-ha-month:before {
+  content: "\e907";
+}
+.icon-ha-week:before {
+  content: "\e908";
+}
+.icon-ha-yestoday:before {
+  content: "\e90b";
+}
+.icon-ha-logo:before {
+  content: "\e90c";
+}
+.icon-ha-allday:before {
+  content: "\e90d";
+}
+.icon-ha-user-circle:before {
+  content: "\e90a";
+}
+.icon-ha-wfx:before {
+  content: "\e913";
+}
+.icon-ha-wfw:before {
+  content: "\e912";
+}
+.icon-ha-wgz:before {
+  content: "\e911";
+}
+.icon-ha-wlf:before {
+  content: "\e910";
+}
+.icon-ha-wrd:before {
+  content: "\e90f";
+}
+.icon-ha-wsj:before {
+  content: "\e90e";
+}
+.icon-ha-wxx:before {
+  content: "\e909";
+}
+.icon-ha-arrow-left:before {
+  content: "\f0a4";
+}
+.icon-ha-arrow-right:before {
+  content: "\f078";
+}
+.icon-ha-list:before {
+  content: "\f061";
+}
+

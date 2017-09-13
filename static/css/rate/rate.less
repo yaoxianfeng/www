@@ -1,0 +1,54 @@
+.ha-rate_groups{
+
+  .ha-rate_groups_box{
+
+    height: 40px;
+    line-height: 40px;
+
+    .ha-rate_group-item{
+      display: flex;
+
+      .ha-rate_group-item_lable{
+        font-size: 14px;
+        min-width: 80px;
+      }
+
+      .el-rate{
+        height: 40px;
+        line-height: 40px;
+
+        display:flex;
+        align-items:center;//子元素垂直居中
+
+        .el-rate__item{
+          padding-top: 7px;
+          box-sizing: border-box;
+          height: 40px;
+
+        }
+
+        .el-icon-star-on {
+          background: url("/static/images/star-on.png") no-repeat;
+          width: 22px;
+          height: 23px;
+          background-size: 22px 23px;
+        }
+
+        .el-icon-star-off {
+          background: url("/static/images/star.png") no-repeat;
+          width: 22px;
+          height: 23px;
+          background-size: 22px 23px;
+        }
+
+        .el-rate__icon:before{
+          content:"";
+        }
+
+      }
+
+
+    }
+  }
+
+}

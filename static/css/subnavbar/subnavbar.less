@@ -1,0 +1,94 @@
+.ha-topbar-box{
+        min-height: 70px;
+        height: 9%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        .ha-navbar-box {
+
+            flex-direction: row;
+            flex-wrap: nowrap;
+            flex-flow: row nowrap;
+            -webkit-flex-flow: row nowrap;
+
+            .ha-navbar-item {
+                box-sizing: border-box;
+                flex-shrink: 1;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                margin-right: 20px;
+                color: #fff;
+                justify-content: center;
+
+                .ha-navbar-link {
+                    width: 120px;
+                    height: 50px;
+                    font-size: 14px;
+                    line-height: 50px;
+                    text-align: center;
+                    color: #fff;
+                    display: inline-block;
+                    background: url("../../images/s-nav.png") no-repeat;
+                }
+
+                .router-link-active {
+                    background: url("../../images/s-nav-active.png") no-repeat;
+                }
+            }
+        }
+        .ha-navbar-tools{
+            padding-bottom: 5px;
+            width: auto;
+        }
+        .ha-navbar-radiogroup {
+            padding-bottom: 6px;
+            display: flex;
+        }
+        .ha-navbar-searchbox{
+            margin-bottom: 5px;
+        }
+        .ha-navbar-backbox{
+            padding-bottom: 5px;
+        }
+        .ha-flexend{
+           display: flex;
+           align-items: flex-end;
+           justify-content: space-between;
+
+        }
+
+}
+
+
+.select-top{margin-right: 18px;}
+.ha-navbar-nopadding{padding-left: 6.2%;}
+
+.ha-navbar-goback{
+    background:rgba(39,94,139,0.3);
+    border:1px solid #275e8b;
+    color:#fff;
+    font-size: 12px;
+    height:26px;
+    width:60px;
+    border-radius:2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    -webkit-align-items: center;
+    margin: 0px 10px 0 0;
+    cursor: pointer;
+    span{
+        padding-left:5px;
+    }
+}
+.ha-navbar-radiogroup {
+    float: left;
+    padding-bottom: 6px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+.ha_left,.ha_right{height:100%; width:auto;align-items: flex-end;display: flex;}

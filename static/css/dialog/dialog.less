@@ -1,0 +1,121 @@
+.el-message-box{
+  background: rgba(39,94,139, 0.5);
+  box-sizing: border-box;
+  border: 1px solid #285E8D;
+  .el-message-box__header{
+    height: 50px;
+    background: rgba(39,94,139, 0.7);
+    padding:15px 20px;
+    border-bottom: 1px solid #285E8D;
+    .el-message-box__title{
+      color: #fff;font-size: 14px;
+    }
+    .el-message-box__close{
+      color: #499EDB;
+    }
+  }
+  .el-message-box__content{
+    padding:20px;
+    color: #fff;
+    .el-message-box__message{
+
+    }
+  }
+  .el-message-box__btns .el-button{
+    background-color:#285E8C;
+    border: none;
+    color: #fff;
+  }
+  .el-message-box__btns .el-button:hover{
+    background: #4db3ff;
+    color:#fff;
+    border: none;
+  }
+}
+
+.el-dialog__wrapper, .ha-dialog__wrapper{
+    background: rgba(0,0,0,0.8);
+}
+.ha-dialog__wrapper{
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  overflow: auto;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.el-dialog {
+  background:url(/static/images/bg-icea.png);
+}
+.el-dialog, .ha-dialog{
+
+  box-sizing: border-box;
+  border: 1px solid #285E8D;
+    &:after{
+      background: rgba(39,94,139, 0.3);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      content: "";
+      z-index: -1;
+      top: 0;
+      left: 0;
+  }
+  .el-dialog__header, .ha-dialog__header{
+    background: rgba(39,94,139, 0.7);
+    padding:15px 20px;
+    border-bottom: 1px solid #285E8D;
+    .el-dialog__title, .ha-dialog__title{
+      color: #fff;
+      font-size: 15px;
+    }
+    .ha-dialog__headerbtn{
+      float: right;
+    }
+    .el-dialog__close, .ha-dialog__close{
+      color: #499EDB;
+    }
+  }
+  .el-dialog__body, .ha-dialog__body{
+    padding:20px;
+    color: #fff;
+  }
+  .ha-dialog__body{
+     background: url(/static/images/bg-icea.png) #0c1c2b;
+  }
+
+  .ha-dialog__footer {
+    padding: 20px;
+    background: url(/static/images/bg-icea.png) #0c1c2b;
+    .ha-dialog__footer__btngroup{
+      text-align: center;
+
+      .el-button--ha_btn{color:#fff;background-color:#285E8C;border-color:#285E8C}
+      .el-button--ha_btn:focus,.el-button--primary:hover{background: rgba(39, 94, 139, 0.6);color:#fff}
+      .el-button--ha_btn.is-active,.el-button--ha_btn:active{background: rgba(39, 94, 139, 0.6);color:#fff}
+      .el-button--ha_btn:active{outline:0}
+
+    }
+  }
+}
+
+.ha-dialog{
+  z-index: 20;
+  position: absolute;
+  width: 100%;
+}
+
+.el-dialog:before, .ha-dialog:before {
+  background: rgba(39, 94, 139, 0.3);
+  content:"";
+  position: absolute;
+  left:0;
+  top:0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+

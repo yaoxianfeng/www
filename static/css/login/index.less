@@ -1,0 +1,150 @@
+@keyframes rotate{
+  0%{
+    transform:rotate(0deg);
+  }
+  100%{
+    transform:rotate(360deg);
+  }
+}
+@keyframes rotate2{
+  0%{
+    transform:rotate(360deg);
+  }
+  100%{
+    transform:rotate(0deg);
+  }
+}
+@keyframes scale{
+  0%{
+    opacity: 0;
+    transform: scale(0);
+  }
+  40%{
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  60%{
+    opacity: 1;
+    transform: scale(1);
+  }
+  80%{
+    opacity: 1;
+    transform: rotateY(180deg);
+  }
+  100%{
+    opacity: 1;
+    transform: rotateY(360deg);
+  }
+}
+@keyframes scale2{
+  0%{
+    opacity: 0;
+    transform:scale(0);
+  }
+  50%{
+    opacity: 1;
+    transform:scale(1.5);
+  }
+  100%{
+    opacity: 0;
+    transform:scale(0);
+  }
+}
+
+@keyframes circle{
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(.7);
+  }
+}
+@keyframes circle2{
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+@keyframes circle3{
+  0%{
+    transform: scale(.7);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+@keyframes move{
+  0%{
+    transform: translate(0, 0);
+  }
+  100%{
+    transform: translate(0, -100px);
+  }
+}
+@keyframes move2{
+  0%{
+    transform: translate(0, 0);
+  }
+  100%{
+    transform: translate(100px, 0);
+  }
+}
+@keyframes move3{
+  0%{
+    transform: translate(0, 0);
+  }
+  100%{
+    transform: translate(0, 100px);
+  }
+}
+@keyframes move4{
+  0%{
+    transform: translate(0, 0);
+  }
+  100%{
+    transform: translate(-100px, 0);
+  }
+}
+.loginlogo{display: none;}
+.loginbg{height:100%;position:relative;overflow:hidden;}
+.img{display:block;max-width:100%;max-height:100%;margin: 0 auto;}
+.loginleft{width:75%;height:100%;}
+.animation{position:relative;height:100%;}
+.animation .item{position:absolute;width:100%;height:100%;top:0;left:0;display: flex;align-items:center;}
+.animation .item .img,.animation .item .cuboid{opacity:0;}
+.plate,.plate2{display:block;position:absolute;top:50%;left:50%;}
+.plate{width:28px;height:6px;margin-top:-3px;margin-left:-14px;}
+.plate2{width:6px;height:28px;margin-top:-14px;margin-left:-3px;}
+.animat8-2 .plate{margin-top:0;}
+.animat8-2 .plate2{margin-left:0;}
+.plate2.item1{background:#1c93ff}
+.plate.item2{background:#1c93ff}
+.plate2.item3{background:#ff5c4b}
+.plate.item4{background:#19cbdb}
+.animat5{transform:translate(-170px);}
+.animat1{animation:rotate 60s infinite linear;}
+.animat2{animation:scale2 5s infinite linear;}
+.animat6{animation:rotate 20s infinite linear;}
+.animat5{animation:rotate2 20s infinite linear;}
+.animat3{animation:scale 6s 1 linear;}
+.animat4{animation:circle 2s 1 linear;animation-fill-mode:forwards;}
+.animat4-2{animation:circle2 2s 2 linear;animation-fill-mode:forwards;}
+.animat4-3{animation:circle3 2s 1 linear;animation-fill-mode:forwards;}
+.animat8 .item3,.animat8 .item4{animation:rotate 1s 2 linear;}
+.animat8 .item1,.animat8 .item2{animation:rotate2 2s 1 linear;}
+.animat8-2 .item1{animation:move 2s 1 linear;}
+.animat8-2 .item2{animation:move2 2s 1 linear;}
+.animat8-2 .item3{animation:move3 2s 1 linear;}
+.animat8-2 .item4{animation:move4 2s 1 linear;}
+.animat8-2 .cuboid{animation-fill-mode:forwards;}
+.animat8-3.roll1{animation:rotate 2s 2 linear;animation-fill-mode:forwards;}
+.animat8-3.roll2{animation:rotate2 2s 2 linear;animation-fill-mode:forwards;}
+.circle5{transform: scale(.7);}
+.trans{transition:2s ease;}
+.loginbox{position:relative;overflow:hidden;}
+.test_cover {box-sizing: content-box;display:block;width:646px;height:646px;border:646px solid rgba(0,0,0,0.5);border-radius:50%;position:absolute;left:-1190px;top:-850px;}
+.test_cover.hover {left: -656px;top: -500px;}
+.star{display:none;position: absolute;z-index:9999;top:0;left:15%;display:block;width:10px;height:1px;background:rgb(12, 155, 230);transform: rotate(-135deg);}
+.loginbox.hover{transform:scale(1.05);}
